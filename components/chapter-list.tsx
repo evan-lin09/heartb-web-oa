@@ -126,7 +126,6 @@ export const ChapterList: React.FC<ChapterListProps> = ({
                     </p>
                   </div>
 
-                  {/* Three dots menu - always visible */}
                   <div data-dropdown-trigger>
                     <Dropdown>
                       <DropdownTrigger>
@@ -215,7 +214,7 @@ export const ChapterList: React.FC<ChapterListProps> = ({
 
                 <CardBody className="pt-3">
                   <p className="line-clamp-2 text-xs text-default-600">
-                    {chapter.content.substring(0, 100)}...
+                    {chapter.brief}
                   </p>
                 </CardBody>
               </Card>

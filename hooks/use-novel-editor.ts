@@ -133,7 +133,7 @@ export const useNovelEditor = () => {
         const otherChapters = prev.chapters.filter(
           (c) => c.id !== currentChapterId,
         );
-        
+
         const updatedChapters = [
           ...otherChapters.filter((c) => c.order < currentChapter.order),
           ...splitChapters,

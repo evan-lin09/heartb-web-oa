@@ -41,6 +41,7 @@ export const useChapterParser = () => {
             id: "chapter-1",
             title: filename.replace(".txt", "") || "Chapter 1",
             content: content.trim(),
+            brief: "",
             status: "pending",
             order: 1,
           },
@@ -59,10 +60,19 @@ export const useChapterParser = () => {
         const chapterNumber = match[1];
         const chapterTitle = match[0] || `Chapter ${chapterNumber}`;
 
+        const contentWithoutTitle = chapterContent
+          .replace(chapterTitle, "")
+          .trim();
+        const brief =
+          contentWithoutTitle.length > 100
+            ? contentWithoutTitle.substring(0, 100) + "..."
+            : contentWithoutTitle;
+
         chapters.push({
           id: `chapter-${i + 1}`,
           title: chapterTitle.trim(),
           content: chapterContent,
+          brief,
           status: "pending",
           order: i + 1,
         });
@@ -81,14 +91,17 @@ export const useChapterParser = () => {
         return [chapter]; // No splits found
       }
 
-      return parts.map((part, index): Chapter => ({
-        ...chapter,
-        id: `${chapter.id}-${index + 1}`,
-        title: index === 0 ? chapter.title : `${chapter.title} - ${index + 1}`,
-        content: part.trim(),
-        status: (index === 0 ? "editing" : "pending") as Chapter["status"],
-        order: chapter.order + index * 0.1, // Maintain relative order
-      }));
+      return parts.map(
+        (part, index): Chapter => ({
+          ...chapter,
+          id: `${chapter.id}-${index + 1}`,
+          title:
+            index === 0 ? chapter.title : `${chapter.title} - ${index + 1}`,
+          content: part.trim(),
+          status: (index === 0 ? "editing" : "pending") as Chapter["status"],
+          order: chapter.order + index * 0.1, // Maintain relative order
+        }),
+      );
     },
     [],
   );
