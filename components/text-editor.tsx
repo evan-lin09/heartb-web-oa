@@ -127,7 +127,7 @@ export const TextEditor: React.FC<TextEditorProps> = ({
               className="bg-background/80 backdrop-blur-sm"
               size="sm"
               startContent={
-                <Icon icon="material-symbols:splitscreen-outline" width={16} />
+                <Icon icon="fluent:split-horizontal-12-filled" width={16} />
               }
               variant="flat"
               onPress={handleInsertSplit}
@@ -154,9 +154,7 @@ export const TextEditor: React.FC<TextEditorProps> = ({
             <Button
               className="bg-background/80 backdrop-blur-sm"
               size="sm"
-              startContent={
-                <Icon icon="material-symbols:call-split" width={16} />
-              }
+              startContent={<Icon icon="iconoir:vertical-split" width={16} />}
               variant="flat"
               onPress={onSplitChapter}
             >

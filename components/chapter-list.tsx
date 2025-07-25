@@ -156,7 +156,7 @@ export const ChapterList: React.FC<ChapterListProps> = ({
                                 key="combine"
                                 startContent={
                                   <Icon
-                                    icon="material-symbols:merge"
+                                    icon="iconoir:vertical-merge"
                                     width={16}
                                   />
                                 }

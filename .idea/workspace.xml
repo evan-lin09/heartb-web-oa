@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ae9817-d494-41ed-886f-5b1970a5a31d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/chapter-list.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/file-upload.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/text-editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-chapter-parser.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-novel-editor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prd.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/input-txt/example-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/input-txt/example-2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/input-txt/example-3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/input-txt/example-4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/input-txt/example-5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cn.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/cn.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/chapter-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/chapter-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/text-editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/text-editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/use-chapter-parser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-chapter-parser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/use-novel-editor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-novel-editor.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753435068691</updated>
       <workItem from="1753435069986" duration="1791000" />
-      <workItem from="1753437055816" duration="17455000" />
+      <workItem from="1753437055816" duration="18618000" />
     </task>
     <servers />
   </component>

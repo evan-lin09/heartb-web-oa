@@ -81,12 +81,12 @@ export const useChapterParser = () => {
         return [chapter]; // No splits found
       }
 
-      return parts.map((part, index) => ({
+      return parts.map((part, index): Chapter => ({
         ...chapter,
         id: `${chapter.id}-${index + 1}`,
         title: index === 0 ? chapter.title : `${chapter.title} - ${index + 1}`,
         content: part.trim(),
-        status: index === 0 ? "editing" : "pending",
+        status: (index === 0 ? "editing" : "pending") as Chapter["status"],
         order: chapter.order + index * 0.1, // Maintain relative order
       }));
     },
