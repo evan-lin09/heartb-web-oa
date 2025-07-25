@@ -4,15 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07ae9817-d494-41ed-886f-5b1970a5a31d" name="Changes" comment="" />
+    <list default="true" id="07ae9817-d494-41ed-886f-5b1970a5a31d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/chapter-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/file-upload.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/text-editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-chapter-parser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-novel-editor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/input-txt/example-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/input-txt/example-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/input-txt/example-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/input-txt/example-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/input-txt/example-5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/cn.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/cn.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30MQfuJs3kWpPzaKP6dYgZ1TJUW" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -22,9 +43,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -33,10 +56,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.lint.executor": "Run",
+    "ts.external.directory.path": "/Users/evan/Desktop/heartb-web-oa-master/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.Next.js: server-side">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.lint">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
@@ -50,6 +80,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -66,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753435068691</updated>
       <workItem from="1753435069986" duration="1791000" />
+      <workItem from="1753437055816" duration="17455000" />
     </task>
     <servers />
   </component>
